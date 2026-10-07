@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@15&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+body {
+    background-color: #b6b2b2;
+    margin: 0;
+    font-family: 'Roboto';
+    background-image:url(../assets/original-1f4ad385e31a288c08ba6b96789bdade.webp)
+}
+
+body > div {
+    margin: 0 auto;
+    width: 50%;
+    min-width: 800px;
+    background-color: #f9efd4;
+    padding: 10px;
+    min-height: 100vh;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+header h2,
+header h1 {
+    font-family: 'Bungee Spice';
+    color: rgba(151, 0, 70, 0.886);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(251, 154, 209, 0.938);
+}
+
+main header h2,
+footer header h2 {
+    font-family: 'Honk';
+    color: rgba(151, 0, 70, 0.886);
+    text-transform: capitalize;
+    text-align: left;
+    text-shadow: 1px 1px 2px rgba(251, 154, 209, 0.938);
+}
+
+nav a {
+    color: rgba(247, 14, 88, 0.612);
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: square;
+}
+
+nav ul li {
+    color: rgb(247, 14, 88,0.612);
+}
+
+/* ------- Infos ----- */
+
+#infos ul {
+    list-style-type: none;
+}
+
+/* -------- Compétences ---- */
+
+.back {
+    background-color: rgb(7, 7, 7);
+    width: 200px;
+    height: 20px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.comp {
+    background-color: #ff8800;
+    height: 16px;
+    box-sizing: border-box;
+}
+
+#html {
+    width: 50%;
+}
+
+#code {
+    width: 80%;
+}
+
+#git {
+    width: 60%;
+}
+
+/* ------------ Contact -------------- */
+textarea {
+    resize: none;
+}
